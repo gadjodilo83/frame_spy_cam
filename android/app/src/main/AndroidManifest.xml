@@ -7,6 +7,7 @@
     https://developer.android.com/about/versions/12/features/bluetooth-permissions -->
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    SF11aibB????<uses-permission android:name="android.permission.CAMERA" />
 
     <!-- legacy for Android 11 or lower -->
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
@@ -17,7 +18,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="28" />
 
     <application
-        android:label="frame_sprite_viewer"
+        android:label="Frame Spy Cam"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
